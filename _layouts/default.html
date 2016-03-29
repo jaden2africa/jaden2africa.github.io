@@ -5,23 +5,37 @@
 
   <body>
 
-    {% include sidebar.html %}
+    <!--{% include sidebar.html %}-->
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">HOME</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">PLACEHOLDER</a></li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <div class="container content">
-        {{ content }}
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
       </div>
+    </div>
+
+    <div class="container content">
+      {{ content }}
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
