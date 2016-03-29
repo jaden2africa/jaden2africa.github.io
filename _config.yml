@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://jaden2africa.github.io
+title: Immerision
+tagline: One Namibia
+description: My awesome new site
+paginate: 5
