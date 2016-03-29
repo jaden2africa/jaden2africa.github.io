@@ -43,7 +43,7 @@
 
 html,
 body {
-  background-color: #607D8B;
+  background-color: #607D8B !important;
   margin: 0;
   padding: 0;
 }
