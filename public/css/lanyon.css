@@ -37,6 +37,7 @@
 /* Prevent scroll on narrow devices */
 html,
 body {
+  background-color: #607D8B;
   overflow-x: hidden;
 }
 
