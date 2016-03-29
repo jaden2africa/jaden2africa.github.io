@@ -19,9 +19,10 @@ html, body {
 
 }
 
-img .cover-header {
+img {
     height: auto;
     width: auto;
+
     max-width: 100%;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
