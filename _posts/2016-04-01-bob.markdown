@@ -1,0 +1,6 @@
+---
+published: true
+title: Bob
+layout: post
+---
+Tester bob likes testing the testing things that he tests. Buffalo buffalo buffalo buffalo.
