@@ -3,6 +3,6 @@ pygments: true
 markdown: kramdown
 url: http://jaden2africa.github.io
 title: Immerision
-tagline: One Namibia
-description: My awesome new site
+tagline: One Month Namibia
+description: My Journey 
 paginate: 5
